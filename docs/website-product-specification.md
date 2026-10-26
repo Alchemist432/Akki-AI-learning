@@ -1116,3 +1116,167 @@ These references informed the competitive pattern review. They are external exam
 Build a website that makes the buyer confident about **the work, the people, the workflow, the quality controls, and the accountability**. The strongest differentiator should be operational transparency: show how a project is defined, staffed, trained, reviewed, corrected, and accepted.
 
 The website must be ambitious in presentation and disciplined in its claims. It should look like an enterprise partner from day one while clearly distinguishing proven capabilities from planned capabilities.
+
+
+---
+
+## 19. Updated Design Direction and Implementation Decisions (2026-10-26)
+
+### 19.1 Brand status and governance
+- Official company name is **not yet confirmed**. Do not treat “Akki AI” as the approved public brand. It may remain a repository/project working label only until management confirms the legal and customer-facing name.
+- Keep the logo, wordmark, domain, favicon, email address, social links, and brand-specific copy easy to replace.
+- Do not invent a tagline as an official brand asset. Any tagline in prototypes is placeholder copy pending approval.
+- Target geography is global, but no primary customer segment has been selected. Use broadly understandable international B2B English; do not claim global offices, worldwide delivery coverage, local presence, or specific regional compliance without evidence.
+
+### 19.2 Brand personality
+The agreed direction is **premium and enterprise-grade**. The site should feel confident, precise, thoughtful, and credible. Avoid both a generic blue corporate template and over-stylized “AI futurism” (neon glows, robot heads, glowing brains, excessive gradients, and motion without purpose).
+
+### 19.3 Palette exploration (compare before locking)
+The premium editorial direction is agreed, but the final palette is **not approved yet**. Compare at least these three distinct options in a small design study before implementation is locked:
+
+**Palette A — Evergreen / Ivory / Brass (recommended starting candidate)**
+- Deep evergreen: `#153C35`
+- Warm ivory: `#F5F1E8`
+- Muted brass: `#B69A61`
+- Charcoal: `#252C2A`
+- Soft mint: `#A7DCC5`
+- Intended effect: grounded, premium, distinctive, and compatible with the existing green prototype.
+- Risks: too much brass can feel decorative; large dark sections can make pages heavy.
+
+**Palette B — Midnight Navy / Porcelain / Copper**
+- Midnight navy: `#17263D`
+- Porcelain: `#F7F8F5`
+- Copper: `#B87552`
+- Slate: `#354052`
+- Mist blue: `#D8E3E9`
+- Intended effect: established enterprise confidence with a technical feel.
+- Risks: can feel conventional in the B2B technology category; copper should be an accent, not a dominant fill.
+
+**Palette C — Graphite / Chalk / Electric Jade**
+- Graphite: `#202725`
+- Chalk: `#F4F4EF`
+- Jade: `#2E806B`
+- Pewter: `#89938E`
+- Pale jade: `#D8E9E2`
+- Intended effect: contemporary, restrained, technical, and highly legible.
+- Risks: less warm or visibly “premium” than Palette A unless typography and spacing are excellent.
+
+**Palette evaluation rules**
+- Build comparable hero + service-card + CTA samples for all three palettes, using the same copy and layout so color is the main variable.
+- Test normal text and interactive states for WCAG 2.2 AA contrast where applicable; do not assume the palette is accessible based on appearance alone.
+- Check desktop and mobile, light and dark sections, focus/hover/disabled/error states, and long-form content.
+- Keep gold/copper/jade as accents. Never use low-contrast accent text for essential body copy.
+- Record the selected palette and rationale in the design tokens section after review. Until then, Palette A is a recommendation, not a final approval.
+
+### 19.4 Typography and visual language
+- Initial type pairing to test: Manrope for display/headings and Inter for body/interface. Confirm readability, rendering, licensing/hosting approach, and performance before final selection.
+- Prefer clear type hierarchy, generous whitespace, restrained borders, consistent grid alignment, and purposeful section rhythm.
+- Use authentic annotation examples, illustrative data visualizations, and original workflow diagrams to explain the work.
+- Use genuine team photography only when available and approved. Stock imagery must not imply that pictured people are company employees, clients, or actual project participants.
+- Avoid invented dashboard screenshots that imply a proprietary platform exists. Label concept visuals as illustrative when needed.
+
+### 19.5 Positioning and audience
+- Working positioning: **a managed AI data services partner** that helps clients scope and coordinate annotation/data projects and oversees delivery and quality checks, subject to operational confirmation.
+- Audience: broad B2B audience; target geography: global. No single vertical or customer segment is prioritized yet.
+- The homepage should lead with the customer problem and managed outcome, then provide clear paths to service categories, delivery approach, quality, and project inquiry.
+- Potential audience paths: AI/model developers; enterprise AI teams; technology vendors and BPO/implementation partners. Do not create separate brands or imply equal maturity in every market.
+- Avoid claims such as “industry-leading,” “world-class,” “most accurate,” “lowest cost,” “global network,” or guaranteed speed/scale unless evidence and management approval support them.
+
+### 19.6 Proposed service taxonomy — pending management confirmation
+The following categories are under consideration, not yet confirmed public offerings:
+1. Image and video annotation.
+2. Text and document annotation.
+3. Audio and speech annotation.
+4. LLM and generative AI data.
+5. Data collection and data curation.
+6. 3D, LiDAR, and autonomous-vehicle data.
+
+For each category, management must confirm available task types, tooling, workforce expertise, supported languages/modalities, data handling constraints, delivery capacity, and any excluded work. Publish only the capabilities the business can actually deliver. The 3D/LiDAR category is especially specialized and should not be presented as available until expertise and tooling are verified.
+
+### 19.7 Delivery model and quality ownership
+- Delivery mix (internal team, BPO partners, or hybrid) is **not yet known** and must be confirmed.
+- Current stated operating assumption: the company owns client coordination, project management, and quality checks. Confirm this with management before presenting it as a formal service commitment.
+- Safe provisional language: “A managed delivery approach shaped around your project requirements.” Do not imply a specific staffing model, partner network, or scale.
+- Before publishing QA details, confirm actual stages, reviewer responsibilities, sampling strategy, disagreement resolution, rework loops, acceptance criteria, reporting, and escalation.
+- Do not publish accuracy percentages, turnaround guarantees, or capacity figures until they are measured, defined, and approved.
+
+### 19.8 Differentiation hierarchy
+**Lead positioning candidates**
+1. Quality and accountability.
+2. Flexible delivery and scaling.
+3. Partnership and personalized service.
+
+**Supporting themes**
+- Cost-effective delivery: describe value and fit, not “lowest cost” or guaranteed savings.
+- Specialized AI expertise: substantiate with named capabilities and verified team experience.
+- Fast onboarding: describe the process, not unverified turnaround promises.
+- Data security and confidentiality: provide a trust section only with verified controls, policies, contractual practices, and certifications where applicable. Never imply certification without evidence.
+
+These are proposed brand priorities, not proven competitive advantages yet. They should be validated with management and then supported by real process descriptions or evidence.
+
+### 19.9 Homepage content order
+1. Hero: clear AI data services positioning, concise supporting explanation, primary project-inquiry CTA, and secondary services CTA.
+2. Service categories, limited to confirmed capabilities.
+3. How projects work: requirements and scoping, data/task preparation, annotation, quality review, correction/validation, delivery and feedback. Adjust to actual operations.
+4. Quality and accountability: explain verified process controls rather than unsupported performance numbers.
+5. Delivery approach: publish only after confirming internal/BPO/hybrid model.
+6. Security and responsible data handling: factual, reviewed by management.
+7. Industry/use-case examples: illustrative use cases clearly distinguished from client case studies.
+8. Project inquiry form and clear contact route.
+
+### 19.10 Conversion and inquiry requirements
+- Primary CTA candidate: “Discuss a project” or “Tell us about your data.” Final copy depends on brand approval.
+- Ask for only useful lead qualification details: name, work email, company, project type, approximate volume, timeline, and a short description. Make phone number and file upload optional unless a real operational need exists.
+- Do not request sensitive or confidential datasets through an unsecured form. Display a concise instruction not to submit confidential data before an agreed secure transfer method is established.
+- Form submission, privacy notice, consent where required, spam prevention, routing, confirmation message, and responsible recipient must be confirmed before launch.
+- Do not show placeholder email addresses, nonfunctional CTA buttons, fake chat widgets, or forms that appear to submit but do not.
+
+### 19.11 Implementation decisions and delivery plan
+**Stage 0 — Confirm fundamentals**
+- Obtain official company name, logo/brand assets, domain, approved contact details, and who can approve copy.
+- Confirm service categories and exact deliverable examples.
+- Confirm delivery model and quality ownership.
+- Confirm target geographies, industries, languages, project size ranges, and whether client data can be shown in demonstrations.
+- Confirm actual security/privacy practices and legal review requirements.
+
+**Stage 1 — Design exploration**
+- Create three comparable palette treatments (A, B, C) for the homepage hero, service cards, and CTA.
+- Use the same structure and provisional copy for a fair comparison.
+- Check contrast, responsive behavior, typography, and visual distinctiveness.
+- Record final choice as design tokens only after approval.
+
+**Stage 2 — Design system and homepage**
+- Define color tokens, typography scale, spacing, layout grid, breakpoints, buttons, cards, forms, focus states, and motion rules.
+- Implement the homepage using reusable components and responsive semantic HTML.
+- Use a clearly marked provisional brand name only in development, never as approved final copy.
+- Keep content data separate from layout so the official name and service list can be changed without rebuilding components.
+
+**Stage 3 — Core service and trust pages**
+- Build services, workflow, quality, delivery model, security/data handling, and contact pages based on verified facts.
+- Do not publish unsupported case studies, customer logos, metrics, awards, certifications, or workforce claims.
+
+**Stage 4 — QA and launch readiness**
+- Test mobile, tablet, and desktop layouts; keyboard navigation; focus visibility; color contrast; form validation; links; performance; metadata; and basic accessibility.
+- Confirm privacy/legal content, analytics consent requirements where relevant, contact routing, and ownership of incoming leads.
+- Review all claims against a management-approved evidence checklist before deployment.
+
+### 19.12 Current decisions and open questions
+**Decisions made**
+- Premium and enterprise-grade brand personality.
+- Compare alternative palettes before finalizing; Palette A is only the initial recommendation.
+- Global-facing website, broad B2B audience, no single segment prioritized.
+- Position around managed AI data services, with quality/accountability, flexible delivery, and personalized partnership as proposed themes.
+- Candidate services include image/video, text/document, audio/speech, LLM/GenAI, data collection/curation, and 3D/LiDAR/AV data.
+- Company name and delivery mix remain unconfirmed.
+
+**Open questions for management**
+1. What is the official company name and approved brand asset set?
+2. Which services are ready to sell today versus future ambitions?
+3. What is the real internal/BPO delivery arrangement?
+4. What quality checks and evidence can be described publicly?
+5. What security/privacy controls and certifications are actually in place?
+6. Which geographies, industries, languages, and project sizes are realistic initial targets?
+7. Who receives project inquiries, and what is the approved contact address?
+8. Is there a real company team, facility, toolchain, or project example that can be shown publicly?
+
+**Launch gate:** no public deployment until the company name, contact route, service claims, privacy/security statements, and lead form behavior have been reviewed and approved.
