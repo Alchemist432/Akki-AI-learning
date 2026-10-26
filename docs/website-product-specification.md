@@ -2,10 +2,10 @@
 
 **Document status:** Design-team handoff draft  
 **Version:** 1.0  
-**Working brand:** Akki AI (provisional; confirm final business name before public launch)  
+**Working brand:** Nexon AI (provisional; confirm final business name before public launch)  
 **Website type:** Enterprise B2B marketing, education, and lead generation  
 **Primary audience:** AI/ML companies, model developers, enterprise AI teams, data science leaders, and procurement/security stakeholders  
-**Repository:** `Alchemist432/Akki-AI-learning`  
+**Repository:** `Alchemist432/Nexon-AI-learning`  
 **Implementation branch:** `feature/annotation-website-v1`  
 **Current prototype:** `index.html`
 
@@ -96,7 +96,7 @@ The final site should have its own information architecture, copy, examples, vis
 
 ### 3.1 Positioning statement
 
-Akki AI (working name) is a managed AI data services partner that helps AI teams prepare, annotate, validate, and evaluate datasets through trained people, clear workflows, and quality processes tailored to the client's use case.
+Nexon AI (working name) is a managed AI data services partner that helps AI teams prepare, annotate, validate, and evaluate datasets through trained people, clear workflows, and quality processes tailored to the client's use case.
 
 ### 3.2 Value proposition pillars
 
@@ -600,7 +600,7 @@ Optional:
 - Privacy notice and retention policy.
 - No sensitive file uploads on the public form.
 - Route the inquiry to an owned and monitored business inbox / CRM only after configured.
-- The current `hello@akki.ai` email in the prototype is a placeholder; verify ownership before launch.
+- The current `hello@nexonai.com` email in the prototype is a placeholder; verify ownership before launch.
 - Provide a fallback email or contact route if submission fails.
 - Define expected follow-up response time only after the business can meet it.
 
@@ -1056,7 +1056,7 @@ The website is not considered ready because the homepage looks attractive. It is
 | Final brand identity and domain | Business / design | Production assets |
 
 ### Questions to resolve
-1. Is “Akki AI” the final public brand, or only the repository / working name?
+1. Is “Nexon AI” the final public brand, or only the repository / working name?
 2. Which services can be delivered on day one, and which are future capabilities?
 3. Will the initial team be in-house, BPO-based, or hybrid?
 4. If BPO is used, how will partners be approved, disclosed, and restricted from accessing data?
@@ -1123,7 +1123,7 @@ The website must be ambitious in presentation and disciplined in its claims. It 
 ## 19. Updated Design Direction and Implementation Decisions (2026-10-26)
 
 ### 19.1 Brand status and governance
-- Official company name is **not yet confirmed**. Do not treat “Akki AI” as the approved public brand. It may remain a repository/project working label only until management confirms the legal and customer-facing name.
+- Official company name is **not yet confirmed**. Do not treat “Nexon AI” as the approved public brand. It may remain a repository/project working label only until management confirms the legal and customer-facing name.
 - Keep the logo, wordmark, domain, favicon, email address, social links, and brand-specific copy easy to replace.
 - Do not invent a tagline as an official brand asset. Any tagline in prototypes is placeholder copy pending approval.
 - Target geography is global, but no primary customer segment has been selected. Use broadly understandable international B2B English; do not claim global offices, worldwide delivery coverage, local presence, or specific regional compliance without evidence.
@@ -1301,7 +1301,7 @@ Palette A is selected as the working visual direction. Palette B and Palette C a
 - Validate text, buttons, focus indicators, and interactive states against WCAG 2.2 AA contrast requirements where applicable. The palette is selected, but accessibility is not assumed until tested.
 - Typography starting point remains Manrope for display/headings and Inter for body/interface, pending rendering and performance checks.
 - Brand personality remains premium and enterprise-grade, with editorial spacing, restrained motion, original data/workflow visuals, and no generic AI clichés.
-- The official company name is still unconfirmed. Keep the name/logo/domain/contact details replaceable and do not publish “Akki AI” as an approved brand without management confirmation.
+- The official company name is still unconfirmed. Keep the name/logo/domain/contact details replaceable and do not publish “Nexon AI” as an approved brand without management confirmation.
 
 
 ### 19.14 Website implementation checkpoint (2026-10-26)
@@ -1313,8 +1313,8 @@ The first multi-page implementation has been committed to `feature/annotation-we
 - Shared design language: evergreen/ivory/brass/mint, Manrope and DM Sans typography, responsive layout, mobile navigation, keyboard focus styling, and reduced-motion support.
 
 **Still provisional / required before public launch**
-- `Akki AI` is a working label only; confirm official brand name, logo, domain, and legal entity.
-- `hello@akki.ai` is a placeholder recipient in the enquiry flow; replace with a verified mailbox and test it.
+- `Nexon AI` is a working label only; confirm official brand name, logo, domain, and legal entity.
+- `hello@nexonai.com` is a placeholder recipient in the enquiry flow; replace with a verified mailbox and test it.
 - The service list and example use cases are proposed portfolio content; obtain management confirmation before representing them as guaranteed deliverable capabilities.
 - No customer logos, testimonials, certificates, client counts, throughput claims, quality percentages, or security certifications are represented as factual proof.
 - The contact form is email-draft based; configure and test a real backend or verified mail flow if direct submission is required.
