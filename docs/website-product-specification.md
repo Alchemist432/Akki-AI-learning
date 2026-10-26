@@ -1302,3 +1302,21 @@ Palette A is selected as the working visual direction. Palette B and Palette C a
 - Typography starting point remains Manrope for display/headings and Inter for body/interface, pending rendering and performance checks.
 - Brand personality remains premium and enterprise-grade, with editorial spacing, restrained motion, original data/workflow visuals, and no generic AI clichés.
 - The official company name is still unconfirmed. Keep the name/logo/domain/contact details replaceable and do not publish “Akki AI” as an approved brand without management confirmation.
+
+
+### 19.14 Website implementation checkpoint (2026-10-26)
+The first multi-page implementation has been committed to `feature/annotation-website-v1`:
+- `index.html`: premium homepage, Palette A design tokens, custom inline annotation illustration, proposed capability overview, workflow, quality approach, use cases, and navigation.
+- `services.html`: dedicated capabilities page for image/video, text/document, audio/speech, LLM evaluation, data curation, and 3D/LiDAR.
+- `quality.html`: dedicated quality approach page describing guideline clarity, calibration, review, issue resolution, and improvement loops.
+- `contact.html`: project enquiry form that prepares an email draft for user review; it does not submit data to a backend.
+- Shared design language: evergreen/ivory/brass/mint, Manrope and DM Sans typography, responsive layout, mobile navigation, keyboard focus styling, and reduced-motion support.
+
+**Still provisional / required before public launch**
+- `Akki AI` is a working label only; confirm official brand name, logo, domain, and legal entity.
+- `hello@akki.ai` is a placeholder recipient in the enquiry flow; replace with a verified mailbox and test it.
+- The service list and example use cases are proposed portfolio content; obtain management confirmation before representing them as guaranteed deliverable capabilities.
+- No customer logos, testimonials, certificates, client counts, throughput claims, quality percentages, or security certifications are represented as factual proof.
+- The contact form is email-draft based; configure and test a real backend or verified mail flow if direct submission is required.
+- Browser QA is still required at desktop, tablet, and mobile sizes, including keyboard navigation, contrast, form behavior, and link checks.
+- The branch is a review build. No deployment or merge to `main` has been performed.
