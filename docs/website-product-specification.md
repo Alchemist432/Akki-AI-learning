@@ -1280,3 +1280,25 @@ These are proposed brand priorities, not proven competitive advantages yet. They
 8. Is there a real company team, facility, toolchain, or project example that can be shown publicly?
 
 **Launch gate:** no public deployment until the company name, contact route, service claims, privacy/security statements, and lead form behavior have been reviewed and approved.
+
+
+### 19.13 Approved palette decision — Palette A (2026-10-26)
+Palette A is selected as the working visual direction. Palette B and Palette C are no longer candidates for the current implementation unless management later reopens the decision.
+
+**Design tokens**
+- Primary deep evergreen: `#153C35`
+- Main warm ivory: `#F5F1E8`
+- Accent muted brass: `#B69A61`
+- Primary text charcoal: `#252C2A`
+- Secondary technical accent soft mint: `#A7DCC5`
+
+**Usage rules**
+- Use warm ivory for most long-form and service-page surfaces, with charcoal text for readability.
+- Use deep evergreen for the hero, selected feature bands, navigation accents, and footer; avoid making every section dark.
+- Use brass sparingly for primary actions, key separators, and small emphasis. Do not use brass for small body text unless contrast is verified.
+- Use soft mint as a secondary highlight for technical diagrams, annotation details, and selected interface states—not as a competing primary color.
+- Maintain consistent semantic tokens (background, surface, text, muted text, border, primary action, focus, success, warning, and error) so later adjustments are systematic.
+- Validate text, buttons, focus indicators, and interactive states against WCAG 2.2 AA contrast requirements where applicable. The palette is selected, but accessibility is not assumed until tested.
+- Typography starting point remains Manrope for display/headings and Inter for body/interface, pending rendering and performance checks.
+- Brand personality remains premium and enterprise-grade, with editorial spacing, restrained motion, original data/workflow visuals, and no generic AI clichés.
+- The official company name is still unconfirmed. Keep the name/logo/domain/contact details replaceable and do not publish “Akki AI” as an approved brand without management confirmation.
